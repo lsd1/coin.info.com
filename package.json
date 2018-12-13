@@ -1,14 +1,23 @@
 {
-    "name": "coin",
-    "description": "coin info application",
-    "version": "0.4.0",
-    "main": "server.js",
-    "dependencies": {
-        "express": "^3.21.2",
-        "connect-history-api-fallback": "^1.5.0"
-    },
-    "engines": {
-        "node": "0.10.x",
-        "npm": "1.2.x"
-    }
+  "name": "coin.info.com",
+  "version": "1.0.0",
+  "description": "see coin info",
+  "author": "lsd",
+  "license": "ISC",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lsd1/coin.info.com.git"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "engines":{
+    "node":">=5",
+    "npm":">=3"
+  },
+  "dependencies": {
+    "express": "^3.21.2",
+    "connect-history-api-fallback": "1.5.0"
+  }
 }
